@@ -29,6 +29,15 @@ This project formulates the pricing process as a Markov Decision Process (MDP), 
 
 ---
 
+## Reinforcement Learning Formulation
+
+The pricing problem is formulated as a Markov Decision Process (MDP):
+
+- **State:** Remaining inventory and remaining days.
+- **Action:** Select one of several discrete pricing levels.
+- **Reward:** Revenue earned from successful bookings.
+- **Objective:** Maximize cumulative revenue across an entire booking season.
+
 ## Tech Stack
 
 - Python
