@@ -81,3 +81,7 @@ travel-dynamic-pricing-rl/
 - [ ] Deep Q-Network (DQN)
 - [ ] Policy evaluation
 - [ ] Business dashboard
+- [x] Project initialization
+- [x] MDP formulation
+- [x] Demand simulation
+- [ ] Custom Gym environment
