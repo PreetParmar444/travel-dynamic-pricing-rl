@@ -3,3 +3,8 @@ numpy
 pandas
 matplotlib
 seaborn
+gymnasium
+numpy
+pandas
+matplotlib
+seaborn
