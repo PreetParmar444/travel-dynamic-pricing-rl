@@ -70,18 +70,34 @@ travel-dynamic-pricing-rl/
 
 ---
 
-## Current Progress
+# Project Progress
 
-- [x] Project initialization
-- [ ] MDP formulation
-- [ ] Custom Gym environment
-- [ ] Demand simulator
-- [ ] Baseline pricing strategies
-- [ ] Q-Learning implementation
-- [ ] Deep Q-Network (DQN)
-- [ ] Policy evaluation
-- [ ] Business dashboard
-- [x] Project initialization
-- [x] MDP formulation
-- [x] Demand simulation
-- [ ] Custom Gym environment
+## Week 1 ✅ Environment Development
+
+- ✔ Project initialization
+- ✔ Markov Decision Process (MDP) formulation
+- ✔ Configuration management
+- ✔ Stochastic customer demand simulator
+- ✔ Custom Gymnasium environment
+- ✔ Environment validation
+
+## Upcoming Work
+
+### Week 2
+
+- Baseline pricing strategies
+- Q-Learning implementation
+- Policy comparison
+
+### Week 3
+
+- Deep Q-Network (DQN)
+- Experience Replay
+- Epsilon-Greedy Exploration
+
+### Week 4
+
+- Policy evaluation
+- Revenue comparison
+- Business dashboard
+- GitHub deployment

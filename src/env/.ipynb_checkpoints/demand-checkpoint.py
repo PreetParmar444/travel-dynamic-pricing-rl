@@ -14,7 +14,7 @@ def calculate_purchase_probability(price: float, days_left: int, max_days: int =
     Parameters
     ----------
     price : float
-        Current selling price.
+        
 
     days_left : int
         Remaining days before departure.
