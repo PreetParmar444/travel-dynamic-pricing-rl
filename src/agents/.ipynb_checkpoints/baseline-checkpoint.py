@@ -23,3 +23,29 @@ class FixedPriceAgent:
     @property
     def price(self):
         return PRICE_LEVELS[self.price_index]
+class TimeBasedDiscountAgent:
+    """
+    Decreases price as the departure date approaches.
+    """
+
+    def select_action(self, state):
+        """
+        Select a pricing action based on the remaining days.
+        """
+
+        inventory, days_left = state
+
+        if days_left >= 25:
+            return 4      # ₹160
+
+        elif days_left >= 19:
+            return 3      # ₹140
+
+        elif days_left >= 13:
+            return 2      # ₹120
+
+        elif days_left >= 7:
+            return 1      # ₹100
+
+        else:
+            return 0      # ₹80
